@@ -30,12 +30,20 @@ public class Songs {
 
     //getters
     public String getSongName(){
+
         return songName ;
     }
 
     public Double getSongDuration(){
+
         return songDuration;
     }
 
-
+    @Override
+    public String toString() {
+        return
+                "songName='" + songName + '\'' +
+                ", songDuration=" + songDuration
+                ;
+    }
 }
